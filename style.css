@@ -1,0 +1,387 @@
+/* 
+BODY SETS 
+*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Italiana', serif;
+    letter-spacing: 3.26px;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.3rem;
+}
+
+/**********
+INDEX.HTML
+***********/
+/* 
+NAVIGATION BAR 
+*/
+nav {
+    /* nav flex-parent */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav div#lomi-nav {
+    /* flex child */
+    flex: 1;
+    font-family: 'Italiana', serif;
+    letter-spacing: 3.25px;
+}
+
+nav div#loi-nav ul.lomi-links {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav div#loi-nav ul.lomi-links {
+    flex: 4;
+}
+
+nav div#lomi-nav ul li a {
+    color: #000000de;
+    padding: 12px;
+}
+
+div#lomi-logo {
+    /* flex-parent */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /* <img> AND <h1> flex children */
+}
+
+div#lomi-nav ul {
+    /* flex-parent */
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+div#lomi-nav ul a {
+    /* flex children */
+    text-decoration: none;
+}
+
+#lomi-head {
+    font-size: x-large;
+}
+
+.logo-img {
+    width: 175px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#lomi-life>h2 {
+    font-size: 38px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#define-lomi p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 1.6rem;
+    font-size: larger;
+    text-align: justify;
+    font-weight: 900;
+}
+
+#lomi-motto {
+    font-style: italic;
+    color: #305230;
+    font-weight: bolder;
+}
+
+/* MAIN/HERO SECTION */
+main section#hero-intro {
+    /* flex parent */
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+article.hero-values {
+    /* flex child */
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #305230;
+    color: #FAF5F0;
+    border-radius: 40px;
+    min-width: 200px;
+}
+
+.hero-values:hover {
+    background-image: url(images/ernest_porzi_lemons.jpg);
+    background-size: cover;
+    opacity: 0.96;
+}
+
+main section#coaching-opts {
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+article.lomi-opts {
+    flex: 1;
+    padding: 20px;
+    margin: 26px;
+    border: 2px solid #FFCC80;
+    border-radius: 40px;
+    min-width: 200px;
+}
+
+article.lomi-opts h3 {
+    text-align: center;
+}
+
+article.lomi-opts p {
+    text-align: justify;
+}
+
+.lomi-opts div a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Italiana', serif;
+    letter-spacing: 3.25px;
+    background-color: #305230;
+    color: #FAF5F0;
+    border-radius: 20px;
+    padding: 18px;
+}
+
+.connect-with-me-btn:hover {
+    background-image: url(images/ernest_porzi_lemons.jpg);
+    background-size: cover;
+    opacity: 0.96;
+}
+
+/***********
+ ABOUT.HTML
+ ***********/
+/* section, div, img, a, p {
+    border: 1px solid black;
+} */
+
+/* ELON'S IMAGE */
+img.img-about-elon {
+    float: left;
+    width: 500px;
+    margin: 15px 30px 15px 60px;
+    border-radius: 11%;
+}
+
+/* ABOUT DESCRIPT */
+#about .about-descript {
+    margin: 0px 60px 0px 60px;
+    text-align: justify;
+}
+
+.about-descript h1 {
+    font-size: 2.25rem;
+    color: #305230;
+}
+
+.about-descript p {
+    font-size: larger;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.quote-block {
+    font-family: 'Italiana', serif;
+    color: #ebb768;
+    letter-spacing: 3.25px;
+    font-size: 2.75rem;
+    line-height: 1.3em;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+}
+
+/* CREDENTIALS/UNI */
+#credentials {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#credentialsa {
+    margin: 15px 0px 0px 30px;
+    list-style: image();
+}
+
+#credentials ul li {
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+#credentials img {
+    width: 220px;
+}
+
+/************* 
+SERVICES.HTML 
+**************/
+
+section#services {
+    padding-top: -20px;
+}
+
+table,
+th,
+td {
+    padding: 1.2rem;
+    border: 1.5px solid #ebb768;
+}
+
+table {
+    font-family: 'Italiana', serif;
+    border-collapse: collapse;
+}
+
+.main-caption {
+    font-size: 26px;
+    letter-spacing: 3.25px;
+    padding-bottom: 3rem;
+    font-family: 'Italiana', serif;
+}
+
+tr.main-heading {
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 3.25px;
+    line-height: 10%;
+}
+
+
+tbody tr td {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+tr.main-footer {
+    background-color: #305230;
+    font-family: 'Italiana', serif;
+    text-align: center;
+}
+
+th {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 20px 0 20px 0;
+    line-height: 20px;
+}
+
+tr.main-footer a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Italiana', serif;
+    letter-spacing: 3.2px;
+    background-color: #305230;
+    color: #FAF5F0;
+}
+
+.button:hover {
+    color: #ebb768;
+}
+
+/**********
+CONTACT ME 
+SECTION****/
+
+/* section, div, img, iframe {
+    border: 1px solid black;
+} */
+#contact-box {
+    /* flex-parent */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cont-contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-phrase {
+    width: 400px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+img.contact-elon-img {
+    width: 500px;
+    border-radius: 25%;
+}
+
+iframe.goo-form {
+    display: inline-block;
+    min-width: 550px;
+    min-height: 112vh;
+}
+
+/*
+FOOTER BAR
+*/
+footer {
+
+    font-size: .8em;
+    font-weight: bolder;
+    /* flex-parent */
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+footer div {
+    /* flex child (<div> tag) of <footer> tag */
+    flex: 1;
+    position: sticky;
+    /* bottom: 0; */
+    width: 100%;
+}
+
+#socials ul.social-medias {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.social-medias li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.social-handle img {
+    width: 18px;
+}
