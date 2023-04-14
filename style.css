@@ -98,7 +98,7 @@ header {
     margin-right: 2rem;
     line-height: 1.6rem;
     font-size: larger;
-    text-align: justify;
+    text-align: center;
     font-weight: 900;
 }
 
@@ -121,11 +121,19 @@ article.hero-values {
     /* flex child */
     flex: 1;
     margin: 10px;
-    padding: 20px;
+    padding: 24px;
     background-color: #305230;
     color: #FAF5F0;
     border-radius: 40px;
     min-width: 200px;
+}
+
+article.hero-values h2 {
+    font-size: xx-large;
+}
+
+article.hero-values p {
+    font-size: larger;
 }
 
 .hero-values:hover {
