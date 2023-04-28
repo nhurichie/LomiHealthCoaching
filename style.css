@@ -36,12 +36,12 @@ nav div#lomi-nav {
     letter-spacing: 3.25px;
 }
 
-nav div#loi-nav ul.lomi-links {
+nav div#lomi-nav ul.lomi-links {
     display: flex;
     flex-flow: row wrap;
 }
 
-nav div#loi-nav ul.lomi-links {
+nav div#lomi-nav ul.lomi-links {
     flex: 4;
 }
 
