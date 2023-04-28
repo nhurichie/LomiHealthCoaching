@@ -21,7 +21,12 @@ INDEX.HTML
 /* 
 NAVIGATION BAR 
 */
+/* 
+nav, div, ul {
+    border: 2px solid black;
+} */
 nav {
+
     /* nav flex-parent */
     display: flex;
     flex-flow: row wrap;
@@ -63,7 +68,10 @@ div#lomi-nav ul {
     display: flex;
     flex-flow: row wrap;
     list-style: none;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    
 }
 
 div#lomi-nav ul a {
