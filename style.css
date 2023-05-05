@@ -21,10 +21,7 @@ INDEX.HTML
 /* 
 NAVIGATION BAR 
 */
-/* 
-nav, div, ul {
-    border: 2px solid black;
-} */
+
 nav {
 
     /* nav flex-parent */
@@ -39,15 +36,6 @@ nav div#lomi-nav {
     flex: 1;
     font-family: 'Italiana', serif;
     letter-spacing: 3.25px;
-}
-
-nav div#lomi-nav ul.lomi-links {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-nav div#lomi-nav ul.lomi-links {
-    flex: 4;
 }
 
 nav div#lomi-nav ul li a {
@@ -71,7 +59,7 @@ div#lomi-nav ul {
     align-items: center;
     justify-content: space-evenly;
     padding: 0;
-    
+
 }
 
 div#lomi-nav ul a {
@@ -79,9 +67,6 @@ div#lomi-nav ul a {
     text-decoration: none;
 }
 
-#lomi-head {
-    font-size: x-large;
-}
 
 .logo-img {
     width: 175px;
@@ -89,8 +74,6 @@ div#lomi-nav ul a {
 
 /* HEADER */
 header {
-    display: flex;
-    flex-flow: column wrap;
     align-items: center;
     text-align: center;
 }
@@ -101,14 +84,6 @@ header {
     padding: 0px;
 }
 
-#define-lomi p {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    line-height: 1.6rem;
-    font-size: larger;
-    text-align: center;
-    font-weight: 900;
-}
 
 #lomi-motto {
     font-style: italic;
@@ -123,6 +98,8 @@ main section#hero-intro {
     flex-flow: wrap;
     text-align: center;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 article.hero-values {
@@ -144,10 +121,22 @@ article.hero-values p {
     font-size: larger;
 }
 
-.hero-values:hover {
-    background-image: url(images/ernest_porzi_lemons.jpg);
+.hero-values.goals:hover {
+    background-image: url(images/setgoals.jpeg);
     background-size: cover;
-    opacity: 0.96;
+    opacity: 0.85;
+}
+
+.hero-values.habits:hover {
+    background-image: url(images/createhabits.jpg);
+    background-size: cover;
+    opacity: 0.85;
+}
+
+.hero-values.sustain:hover {
+    background-image: url(images/sustainlifestyle.jpeg);
+    background-size: cover;
+    opacity: 0.85;
 }
 
 main section#coaching-opts {
@@ -159,8 +148,8 @@ main section#coaching-opts {
 
 article.lomi-opts {
     flex: 1;
-    padding: 20px;
-    margin: 26px;
+    padding: 25px;
+    margin: 10px;
     border: 2px solid #FFCC80;
     border-radius: 40px;
     min-width: 200px;
@@ -195,21 +184,45 @@ article.lomi-opts p {
 /***********
  ABOUT.HTML
  ***********/
-/* section, div, img, a, p {
-    border: 1px solid black;
-} */
+
+#define-lomi {
+    background-color: #305230;
+    color: #FAF5F0;
+    border-radius: 35px;
+    padding: 30px 40px 30px 40px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    line-height: 1.6rem;
+    font-size: large;
+    text-align: center;
+    font-weight: 900;
+}
+
+#define-lomi h1 {
+    font-size: 2.25rem;
+    letter-spacing: .8rem;
+}
+
+#about {
+    display: flex;
+    flex-flow: wrap;
+}
 
 /* ELON'S IMAGE */
 img.img-about-elon {
-    float: left;
+    flex: 1;
+    /* float: left; */
     width: 500px;
-    margin: 15px 30px 15px 60px;
+    margin: 60px 30px 15px 60px;
     border-radius: 11%;
 }
 
 /* ABOUT DESCRIPT */
 #about .about-descript {
-    margin: 0px 60px 0px 60px;
+    flex: 1;
+    /* float: right; */
+    margin: 20px 60px 0px 60px;
     text-align: justify;
 }
 
