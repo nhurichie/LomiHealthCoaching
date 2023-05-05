@@ -1,6 +1,6 @@
-/* 
+/*********
 BODY SETS 
-*/
+**********/
 h1,
 h2,
 h3,
@@ -21,9 +21,7 @@ INDEX.HTML
 /* 
 NAVIGATION BAR 
 */
-
 nav {
-
     /* nav flex-parent */
     display: flex;
     flex-flow: row wrap;
@@ -67,7 +65,6 @@ div#lomi-nav ul a {
     text-decoration: none;
 }
 
-
 .logo-img {
     width: 175px;
 }
@@ -83,7 +80,6 @@ header {
     margin: 0px;
     padding: 0px;
 }
-
 
 #lomi-motto {
     font-style: italic;
@@ -303,7 +299,6 @@ tr.main-heading {
     line-height: 10%;
 }
 
-
 tbody tr td {
     font-family: 'Karla', sans-serif;
     text-align: center;
@@ -338,10 +333,6 @@ tr.main-footer a {
 /**********
 CONTACT ME 
 SECTION****/
-
-/* section, div, img, iframe {
-    border: 1px solid black;
-} */
 #contact-box {
     /* flex-parent */
     display: flex;
@@ -374,9 +365,9 @@ iframe.goo-form {
     min-height: 112vh;
 }
 
-/*
+/**********
 FOOTER BAR
-*/
+***********/
 footer {
 
     font-size: .8em;
