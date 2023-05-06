@@ -189,7 +189,7 @@ article.lomi-opts p {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 3rem;
-    line-height: 1.6rem;
+    line-height: 1.9rem;
     font-size: large;
     text-align: center;
     font-weight: 900;
@@ -330,9 +330,9 @@ tr.main-footer a {
     color: #ebb768;
 }
 
-/**********
-CONTACT ME 
-SECTION****/
+/*****************
+CONTACT ME SECTION
+******************/
 #contact-box {
     /* flex-parent */
     display: flex;
@@ -348,7 +348,7 @@ SECTION****/
 }
 
 .cont-phrase {
-    width: 400px;
+    width: 425px;
     font-weight: 600;
     text-align: center;
     line-height: 1.4rem;
@@ -394,7 +394,6 @@ footer div {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .social-medias li {
@@ -404,4 +403,25 @@ footer div {
 
 .social-handle img {
     width: 18px;
+}
+
+#credits a {
+    text-decoration: none;
+    color: #ebb768;
+}
+
+#credits a:link {
+    text-decoration: none;
+}
+
+#credits a:visited {
+    text-decoration: none;
+}
+
+#credits a:hover {
+    color: #305230
+}
+
+#credits a:active {
+    text-decoration: none;
 }
