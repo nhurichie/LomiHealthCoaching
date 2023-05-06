@@ -405,19 +405,7 @@ footer div {
     width: 18px;
 }
 
-#credits p a {
+#credits a {
     text-decoration: none;
-    color: #ebb768;
-}
-
-#credits p a:link {
-    text-decoration: none;
-}
-
-#credits p a:hover {
-    color: #305230
-}
-
-#credits p a:active {
-    text-decoration: none;
+    color: #305230;
 }
